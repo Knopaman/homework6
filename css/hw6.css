@@ -1,0 +1,354 @@
+body{
+
+}
+.container {
+    width: 909px;
+    margin: 0 auto;
+}
+
+/*header begin*/
+
+header{
+    height: 26px;
+    line-height: 26px;
+    margin-top: 18px;
+    margin-left: 7px;
+    margin-bottom: 10px;
+}
+
+.cont{
+    background: url("../img/phone.png") no-repeat;
+    color: #5e696d;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    padding-left: 25px;
+    float: left;
+    margin-top: 4px;
+}
+
+.header_form img{
+    float: left;
+    margin-left: 7px;
+    margin-top: 4px;
+}
+
+.log{
+    height: 14px;
+    float: left;
+    margin-left: 3px;
+    margin-top: -2px;
+}
+
+
+.header_form{
+    background-color: #b1bcc0;
+    background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+    border-radius: 4px;
+    box-shadow: 2px 3px 3px rgba(150, 150, 150, 0.75);
+    float: left;
+    width: 495px;
+    height: 26px;
+    margin-left: 57px
+}
+
+.header_form input{
+    width: 111px;
+    height: 14px;
+    background-color: white;
+    border: 1px solid #9ba1a3;
+    color: #97a2a6;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    padding-left: 3px;
+}
+.enter1,.enter2{
+    display: block;
+    float: left;
+    color: white;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.enter1{
+    margin-left: 4px;
+}
+
+.enter2{
+    margin-left: 7px;
+}
+
+.separator{
+    width: 1px;
+    background-color: white;
+    height: 10px;
+    float: left;
+    margin-left: 3px;
+    margin-top: 8px;
+}
+.forgot{
+    color: #bfbfbf;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    display: block;
+    float: left;
+    margin-left: 19px;
+}
+
+.header_link{
+    width: 77px;
+    height: 21px;
+    border: 1px solid #bdc4c7;;
+    float: left;
+    border-radius: 21px;
+    margin-left: 16px;
+    box-shadow: 4px 4px 16px -2px rgba(0,0,0,0.51)
+}
+
+.home, .map, .mail{
+    width: 12px;
+    height: 11px;
+    display: block;
+    float: left;
+    margin-left: 9px;
+    margin-top: 5px;
+}
+
+.home{
+    background: url("../img/home.png");
+}
+
+.map{
+    background: url("../img/map.png");
+}
+
+.mail{
+    background: url("../img/mail.png");
+}
+
+/*header end*/
+
+.banner {
+    background: url("../img/ban.png");
+    height: 237px;
+}
+
+/*NAV*/
+
+nav{
+    width: 909px;
+    height: 34px;
+    background-image: linear-gradient(to top, black 0%, #576068 100%);
+    border: 1px solid #0d1642;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.75);
+    margin-top: 6px;
+}
+
+nav ul{
+    margin-left: 118px;
+}
+
+.nav_item{
+    display: block;
+    float: left;
+    line-height: 25px;
+    text-decoration: none;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #b1bcc0;
+    border-radius: 13px;
+    margin-top: 3px;
+    letter-spacing:-1px;
+
+}
+
+.nav_item:hover{
+    background-color: #f60303;
+    background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+    color: white;
+}
+
+nav img{
+    margin-left: 58px;
+    margin-top: 7px;
+}
+
+nav img, nav p{
+    float: left;
+    color: #929b9f;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height:30px;
+}
+
+.goods{
+    margin-left: 6px;
+
+}
+.amount{
+    margin-left: 16px;
+}
+
+.goods span, .amount span{
+    color: #0d5a8f;
+    font-size: 12px;
+    margin-left: 6px;
+}
+
+/*NAV END*/
+
+ /*ASIDE LEFT BEGIN*/
+.menu_left{
+    margin-top: 163px;
+    float: left;
+}
+
+.clear_fix{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.aside_header{
+    line-height: 27px;
+    text-transform: uppercase;
+    display: block;
+    border: 1px solid #79878d;
+    border-radius: 13px;
+    color: #114165;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 152px;
+    height: 25px;
+    box-shadow: 2px 3px 3px rgba(150, 150, 150, 0.75);
+    text-decoration: none;
+    margin-bottom: 11px;
+    padding-left: 27px;
+    letter-spacing: -1px;
+    background: url("../img/listik.png") no-repeat;
+    background-position-y: 2px;
+    background-position-x: 4px;
+}
+
+.aside_left_title {
+    text-transform: uppercase;
+    display: block;
+    line-height: 28px;
+    border: 1px solid #79878d;
+    border-radius: 13px;
+    color: #114165;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 121px;
+    text-decoration: none;
+    background: url("../img/sircle.png") no-repeat;
+    padding-left: 29px;
+    background-position-y: 2px;
+    background-position-x: 4px;
+}
+
+.aside_left_item{
+    background: url(../img/marker.png) no-repeat;
+    text-decoration: none;
+    color: #465961;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    display: inline-block;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    height: 13px;
+    margin-left: 37px;
+    padding-left: 10px;
+    background-position-y: 1px;
+
+}
+
+.aside_left_item:hover{
+    background: url(../img/marker_bold.png) no-repeat;
+    color: #0c3256;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: italic;
+    text-decoration: underline;
+    padding-left: 10px;
+    background-position-y: 2px;
+}
+
+/*ASIDE LEFT END*/
+
+/*content begin*/
+
+.content{
+    width: 526px;
+    height: 627px;
+    background-image: linear-gradient(to top, rgba(35, 75, 93, 0.24) 0%, rgba(201, 207, 209, 0.24) 100%);
+    border-radius: 3px;
+    margin: 163px auto;
+}
+figure{
+    float: left;
+    height: 190px;
+}
+
+figure p{
+    width: 140px;
+    height: 130px;
+    border: 1px solid #a4aeb1;
+    border-radius: 7px;
+    margin: 0 14px;
+    background-color: white;
+ }
+figure p img{
+    margin: 0 auto;
+}
+figcaption {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
