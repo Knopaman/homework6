@@ -298,10 +298,14 @@ nav img, nav p{
     background-image: linear-gradient(to top, rgba(35, 75, 93, 0.24) 0%, rgba(201, 207, 209, 0.24) 100%);
     border-radius: 3px;
     margin: 163px auto;
+    float: left;
 }
+
 figure{
     float: left;
-    height: 190px;
+    height: 180px;
+    margin-left: 23px;
+    margin-top: 18px;
 }
 
 figure p{
@@ -309,24 +313,104 @@ figure p{
     height: 130px;
     border: 1px solid #a4aeb1;
     border-radius: 7px;
-    margin: 0 14px;
     background-color: white;
  }
+
 figure p img{
-    margin: 0 auto;
+    margin-left: 30px;
+    margin-top: 7px;
 }
+
 figcaption {
     text-align: center;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-weight: 400;
+}
+
+.name_goods{
+    color: #206988;
+    font-size: 15px;
+}
+ .option_goods{
+     color: #1f2528;
+     font-size: 13px;
+ }
+
+ .price_goods{
+     color: #114165;
+     font-family: Arial, sans-serif;
+     font-weight: 700;
+     font-style: italic;
+     margin-top: 7px;
+ }
+
+/*content end*/
+
+/*begin menu_right*/
+
+.menu_right{
+    margin-top: 163px;
+    float: left;
+}
+
+.clear_fix{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.aside_header_right{
+    line-height: 27px;
+    text-transform: uppercase;
+    display: block;
+    border: 1px solid #79878d;
+    border-radius: 13px;
+    color: #114165;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 152px;
+    height: 25px;
+    box-shadow: 2px 3px 3px rgba(150, 150, 150, 0.75);
+    text-decoration: none;
+    margin-bottom: 11px;
+    padding-left: 27px;
+    letter-spacing: -1px;
+    background: url("../img/listik.png") no-repeat;
+    background-position-y: 2px;
+    background-position-x: 4px;
+    margin-left: 21px;
 }
 
 
+.aside_right_title {
+    text-transform: uppercase;
+    display: block;
+    line-height: 28px;
+    border: 1px solid #79878d;
+    border-radius: 13px;
+    color: #114165;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    width: 121px;
+    text-decoration: none;
+    background: url("../img/sircle.png") no-repeat;
+    padding-left: 29px;
+    background-position-y: 2px;
+    background-position-x: 4px;
+    margin-left: 36px;
+}
 
 
-
-
-
-
-
+.right_item{
+    color: #465961;
+    font-family: "Lucida Sans Unicode", Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-left: 40px;
+}
 
 
 
