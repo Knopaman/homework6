@@ -345,6 +345,10 @@ figcaption {
      margin-top: 7px;
  }
 
+ figcaption span{
+     font-size: 12px;
+ }
+
 /*content end*/
 
 /*begin menu_right*/
