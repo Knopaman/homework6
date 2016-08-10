@@ -297,8 +297,9 @@ nav img, nav p{
     height: 627px;
     background-image: linear-gradient(to top, rgba(35, 75, 93, 0.24) 0%, rgba(201, 207, 209, 0.24) 100%);
     border-radius: 3px;
-    margin: 163px auto;
+    margin-top: 161px;
     float: left;
+    margin-left: 10px;
 }
 
 figure{
@@ -351,9 +352,11 @@ figcaption {
 .menu_right{
     margin-top: 163px;
     float: left;
+    width: 113px;
+    margin-left: -12px;
 }
 
-.clear_fix{
+.clear_fix:after{
     clear: both;
     content: "";
     display: block;
@@ -411,10 +414,79 @@ figcaption {
     line-height: 28px;
     margin-left: 40px;
 }
+.choose{
+    float: left;
+    display: block;
+    width: 82px;
+    line-height: 26px;
+    background-image: linear-gradient(180deg, #206988 0%, #114165 59%, #0c3256 100%);
+    border: 1px solid #a7abae;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #e5e9ea;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 9px;
+    margin-left: 41px;
+    box-shadow: 2px 3px 3px rgba(150, 150, 150, 0.75);
+}
+
+/*barands begin*/
+
+.brands {
+    background: url("../img/08.png");
+    width: 676px;
+    height: 27px;
+    margin: 40px auto 23px;
+}
+
+/*footer begin*/
+
+footer{
+    width: 909px;
+    background-color: #213a4d;
+    border: 1px solid #242a3c;
+}
+.footer_menu{
+    margin: 10px 310px;
+}
 
 
+.footer_menu_item{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #bec6c9;
+    float: left;
+    display: block;
+    text-decoration: none;
+}
+
+.footer_menu_item:hover{
+    color: #52abcb;
+}
 
 
+.footer_sep{
+    margin: 0 12px;
+    width: 2px;
+    height: 11px;
+    background-color: #bec6c9;
+    float: left;
+}
+
+.global{
+    color: #7f4740;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 18px;
+    width: 155px;
+    margin: 12px auto;
+    padding-bottom: 33px;
+}
 
 
 
